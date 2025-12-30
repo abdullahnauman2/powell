@@ -9,6 +9,7 @@ type Project = {
 type Member = {
   name: string
   company: string
+  subheading: string
   start: string
   end: string
   link: string
@@ -48,72 +49,52 @@ export const PROJECTS: Project[] = [
 ]
 
 export const MEMBERS: Member[] = [
-  { name: 'Abdullah Nauman', company: 'Claybird (YC F25)', start: '', end: '', link: '', id: 'member1' },
-  { name: 'Yasin Ehsaan', company: 'Headstarter', start: '', end: '', link: '', id: 'member2' },
-  { name: 'Saad Jamal', company: 'Claybird (YC F25)', start: '', end: '', link: '', id: 'member3' },
-  { name: 'Hassan Syed', company: 'Doublespeed', start: '', end: '', link: '', id: 'member4' },
-  { name: 'Zuhair Lakhani', company: 'Doublespeed', start: '', end: '', link: '', id: 'member5' },
-  { name: 'Mark Benliyan', company: 'Jooba', start: '', end: '', link: '', id: 'member6' },
-  { name: 'Burhan Drak Sibai', company: 'Jooba', start: '', end: '', link: '', id: 'member7' },
-  { name: 'Roy Jad', company: 'Head of Design @ Context', start: '', end: '', link: '', id: 'member8' },
-  { name: 'Joseph Jojoe', company: 'sampling latent space', start: '', end: '', link: '', id: 'member9' },
-  { name: 'Ahmad Khan', company: 'Anytool (YC F25)', start: '', end: '', link: '', id: 'member10' },
-  { name: 'Prama Yudhistra', company: 'Anytool (YC F25)', start: '', end: '', link: '', id: 'member11' },
-  { name: 'Tawsif Kamal', company: 'Founding Engineer @ Google Jules', start: '', end: '', link: '', id: 'member12' },
-  { name: 'Faizan Syed', company: 'TikTok Influencer (500M views)', start: '', end: '', link: '', id: 'member13' },
-  { name: 'Osman Siddique', company: 'Sciloop (YC F25)', start: '', end: '', link: '', id: 'member14' },
-  { name: 'Bilal Asmatullah', company: 'Sciloop (YC F25)', start: '', end: '', link: '', id: 'member15' },
-  { name: 'Essam Sleiman', company: 'Canvas (YC F25)', start: '', end: '', link: '', id: 'member16' },
-  { name: 'Sameel Arif', company: 'Founding Engineer @ Browserbase', start: '', end: '', link: '', id: 'member17' },
-  { name: 'Shrey Pandya', company: 'Growth @ Browserbase', start: '', end: '', link: '', id: 'member18' },
+  { name: 'Abdullah Nauman', company: 'Claybird (YC F25)', subheading: 'Led infra for $1b project at Google', start: '', end: '', link: '', id: 'member1' },
+  { name: 'Yasin Ehsaan', company: 'Headstarter', subheading: 'a16z Scout', start: '', end: '', link: '', id: 'member2' },
+  { name: 'Saad Jamal', company: 'Claybird (YC F25)', subheading: 'On leave from UChicago Law', start: '', end: '', link: '', id: 'member3' },
+  { name: 'Faizan Syed', company: 'TikTok Influencer (500M views)', subheading: 'Created the Muslim niche', start: '', end: '', link: '', id: 'member13' },
+  { name: 'Hassan Syed', company: 'Doublespeed', subheading: 'Built Google\'s data warehouse for Ads ML', start: '', end: '', link: '', id: 'member4' },
+  { name: 'Zuhair Lakhani', company: 'Doublespeed', subheading: 'Scaled creative agency for top brands', start: '', end: '', link: '', id: 'member5' },
+  { name: 'Ahmad Khan', company: 'Anytool (YC F25)', subheading: 'First intern class at OpenAI', start: '', end: '', link: '', id: 'member10' },
+  { name: 'Prama Yudhistra', company: 'Anytool (YC F25)', subheading: 'Founding Eng at Codegen', start: '', end: '', link: '', id: 'member11' },
+  { name: 'Bilal Asmatullah', company: 'Sciloop (YC F25)', subheading: 'Represented Pakistan at the IPhO', start: '', end: '', link: '', id: 'member15' },
+  { name: 'Osman Siddique', company: 'Sciloop (YC F25)', subheading: 'Represented Pakistan at the IPhO', start: '', end: '', link: '', id: 'member14' },
+  { name: 'Mark Benliyan', company: 'Jooba', subheading: 'Worked on the Mars Rover', start: '', end: '', link: '', id: 'member6' },
+  { name: 'Burhan Drak Sibai', company: 'Jooba', subheading: 'Did pre-training for Ashish Vaswani', start: '', end: '', link: '', id: 'member7' },
+  { name: 'Roy Jad', company: 'Head of Design @ Context', subheading: 'Scaled 7-figure design agency', start: '', end: '', link: '', id: 'member8' },
+  { name: 'Joseph Jojoe', company: 'sampling latent space', subheading: 'with elad gil', start: '', end: '', link: '', id: 'member9' },
+  { name: 'Essam Sleiman', company: 'Canvas (YC F25)', subheading: 'Trained Twitch\'s video foundation model', start: '', end: '', link: '', id: 'member16' },
+  { name: 'Shrey Pandya', company: 'Growth @ Browserbase', subheading: 'Created the startup scene at Michigan', start: '', end: '', link: '', id: 'member18' },
+  { name: 'Tawsif Kamal', company: 'Founding Engineer @ Google Jules', subheading: '', start: '', end: '', link: '', id: 'member12' },
+  { name: 'Sameel Arif', company: 'Founding Engineer @ Browserbase', subheading: '', start: '', end: '', link: '', id: 'member17' },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'The Vulnerability Explosion Memo',
+    description: 'Anytool Team',
+    link: 'https://www.anytool.sh/memo',
     uid: 'blog-1',
-  },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/abdullahnauman2/powell',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://x.com/powelldotst',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/company/powellst',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/powelldotst/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'mail@powell.st'
