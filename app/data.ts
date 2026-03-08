@@ -194,13 +194,22 @@ export const MEMBERS: Member[] = [
     id: 'member16',
   },
   {
+    name: 'John Bachmann',
+    company: 'Cybe (YC X26)',
+    subheading: "19 yo from Switzerland",
+    start: '',
+    end: '',
+    link: '',
+    id: 'member17',
+  },
+  {
     name: 'Abdulla Abubakre',
     company: 'CEO @ InterviewCoder',
     subheading: 'Designed VR headsets at ByteDance',
     start: '',
     end: '',
     link: '',
-    id: 'member17',
+    id: 'member18',
   },
   {
     name: 'Shrey Pandya',
@@ -209,7 +218,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member18',
+    id: 'member19',
   },
   {
     name: 'Tawsif Kamal',
@@ -218,7 +227,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member19',
+    id: 'member20',
   },
   {
     name: 'Sameel Arif',
@@ -227,7 +236,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member20',
+    id: 'member21',
   },
 ]
 
