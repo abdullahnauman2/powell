@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
 export const MEMBERS: Member[] = [
   {
     name: 'Abdullah Nauman',
-    company: 'Claybird (YC F25)',
+    company: 'Zag (YC F25)',
     subheading: 'Led infra for $1b project at Google',
     start: '',
     end: '',
@@ -78,21 +78,12 @@ export const MEMBERS: Member[] = [
   },
   {
     name: 'Saad Jamal',
-    company: 'Claybird (YC F25)',
+    company: 'Zag (YC F25)',
     subheading: 'On leave from UChicago Law',
     start: '',
     end: '',
     link: '',
     id: 'member4',
-  },
-  {
-    name: 'Faizan Syed',
-    company: 'TikTok Influencer (500M views)',
-    subheading: 'Created the Muslim niche',
-    start: '',
-    end: '',
-    link: '',
-    id: 'member5',
   },
   {
     name: 'Hassan Syed',
