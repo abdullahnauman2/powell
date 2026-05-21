@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
 export const MEMBERS: Member[] = [
   {
     name: 'Abdullah Nauman',
-    company: 'Claybird (YC F25)',
+    company: 'Zag (YC F25)',
     subheading: 'Led infra for $1b project at Google',
     start: '',
     end: '',
@@ -59,7 +59,7 @@ export const MEMBERS: Member[] = [
     id: 'member1',
   },
   {
-    name: 'Yasin Ehsaan',
+    name: 'Yasin Ehsan',
     company: 'Headstarter',
     subheading: 'a16z Scout',
     start: '',
@@ -68,22 +68,22 @@ export const MEMBERS: Member[] = [
     id: 'member2',
   },
   {
-    name: 'Saad Jamal',
-    company: 'Claybird (YC F25)',
-    subheading: 'On leave from UChicago Law',
+    name: 'Faizan Ahmed',
+    company: 'Headstarter',
+    subheading: 'Published ML research at 19',
     start: '',
     end: '',
     link: '',
     id: 'member3',
   },
   {
-    name: 'Faizan Syed',
-    company: 'TikTok Influencer (500M views)',
-    subheading: 'Created the Muslim niche',
+    name: 'Saad Jamal',
+    company: 'Zag (YC F25)',
+    subheading: 'On leave from UChicago Law',
     start: '',
     end: '',
     link: '',
-    id: 'member13',
+    id: 'member4',
   },
   {
     name: 'Hassan Syed',
@@ -92,7 +92,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member4',
+    id: 'member6',
   },
   {
     name: 'Zuhair Lakhani',
@@ -101,7 +101,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member5',
+    id: 'member7',
   },
   {
     name: 'Ahmad Khan',
@@ -110,7 +110,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member10',
+    id: 'member8',
   },
   {
     name: 'Prama Yudhistra',
@@ -119,7 +119,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member11',
+    id: 'member9',
   },
   {
     name: 'Bilal Asmatullah',
@@ -128,7 +128,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member15',
+    id: 'member10',
   },
   {
     name: 'Osman Siddique',
@@ -137,7 +137,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member14',
+    id: 'member11',
   },
   {
     name: 'Mark Benliyan',
@@ -146,7 +146,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member6',
+    id: 'member12',
   },
   {
     name: 'Burhan Drak Sibai',
@@ -155,7 +155,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member7',
+    id: 'member13',
   },
   {
     name: 'Roy Jad',
@@ -164,7 +164,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member8',
+    id: 'member14',
   },
   {
     name: 'Joseph Jojoe',
@@ -173,7 +173,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member9',
+    id: 'member15',
   },
   {
     name: 'Essam Sleiman',
@@ -185,13 +185,49 @@ export const MEMBERS: Member[] = [
     id: 'member16',
   },
   {
+    name: 'John Bachmann',
+    company: 'Cybe (YC X26)',
+    subheading: "19 yo from Switzerland",
+    start: '',
+    end: '',
+    link: '',
+    id: 'member17',
+  },
+  {
+    name: 'Sai Surisetti',
+    company: 'Karo (a16z SR006) ',
+    subheading: "Won +$10,000 on Fortnite & Valorant",
+    start: '',
+    end: '',
+    link: '',
+    id: 'member22',
+  },
+  {
+    name: 'Sean Wu',
+    company: 'Synphony (YC P26)',
+    subheading: "Serving top US robotics labs",
+    start: '',
+    end: '',
+    link: '',
+    id: 'member23',
+  },
+  {
+    name: 'Mon Kadhum',
+    company: 'Crellus (YC P26)',
+    subheading: "Finding sites for new data centers",
+    start: '',
+    end: '',
+    link: '',
+    id: 'member24',
+  },
+  {
     name: 'Abdulla Abubakre',
     company: 'CEO @ InterviewCoder',
     subheading: 'Designed VR headsets at ByteDance',
     start: '',
     end: '',
     link: '',
-    id: 'member19',
+    id: 'member18',
   },
   {
     name: 'Shrey Pandya',
@@ -200,7 +236,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member18',
+    id: 'member19',
   },
   {
     name: 'Tawsif Kamal',
@@ -209,7 +245,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member12',
+    id: 'member20',
   },
   {
     name: 'Sameel Arif',
@@ -218,7 +254,7 @@ export const MEMBERS: Member[] = [
     start: '',
     end: '',
     link: '',
-    id: 'member17',
+    id: 'member21',
   },
 ]
 
